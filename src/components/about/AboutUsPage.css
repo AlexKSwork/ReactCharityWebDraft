@@ -1,0 +1,51 @@
+.about-us-page {
+    background-color: aquamarine;
+    padding: 50px 0;
+  }
+  
+  .about-us-page__title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #222222;
+  }
+  
+  .about-us-page__content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .about-us-page__member {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 50px;
+  }
+  
+  .about-us-page__img {
+    width: 200px;
+    height: fit-content;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  
+  .about-us-page__name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #222222;
+  }
+  
+  .about-us-page__position {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555555;
+  }
+  
+  .about-us-page__description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555555;
+    margin-bottom: 30px;
+  }
+  

@@ -1,0 +1,39 @@
+.meet-our-team {
+    background-color: #fff;
+    padding: 50px;
+  }
+  
+  .meet-our-team__title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
+  
+  .meet-our-team__employees {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .meet-our-team__employee {
+    width: 30%;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .meet-our-team__employee-image {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .meet-our-team__employee-title {
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+  }
+  

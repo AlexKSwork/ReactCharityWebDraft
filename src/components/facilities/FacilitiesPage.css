@@ -1,0 +1,46 @@
+.facilities-page {
+    padding: 50px;
+  }
+  
+  .facilities-page__title {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .facilities-page__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .facilities-page__text {
+    max-width: 600px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  .facilities-page__images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .facilities-page__image {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .facilities-page__images {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .facilities-page__image {
+      width: 100%;
+    }
+  }
+  
